@@ -1,0 +1,7 @@
+# gespeicherte Notizen sollen nicht versioniert werden
+.notes/db/*
+!.notes/db/.gitkeep
+
+# Editor- / OS-Müll
+.DS_Store
+*.swp
