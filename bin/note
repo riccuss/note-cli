@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+NOTES_DIR=".notes/db"
+
+usage() {
+  echo "Usage: note add <text> | note list | note delete <hash>" >&2
+  exit 1
+}
+
+main() {
+  [[ $# -ge 1 ]] || usage
+  usage
+}
+
+main "$@"
